@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { useState } from "react";
 import { Search, Heart, ShoppingCart, User, Menu } from "lucide-react";
 
 // Dummy Coming Soon page
