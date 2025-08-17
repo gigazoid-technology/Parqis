@@ -55,7 +55,7 @@ function Home() {
       {/* Banner */}
       <div className="p-4">
         <img
-          src="/parqis-hero.jpeg"
+          src="/parqis-hero1.png"
           alt="banner"
           className="rounded-2xl shadow"
         />
@@ -64,21 +64,13 @@ function Home() {
       {/* Product Cards */}
       <div className="grid grid-cols-2 gap-4 p-4">
         <Link to="/coming-soon" className="bg-white p-3 rounded-xl shadow">
-          <img
-            src="https://images.unsplash.com/photo-1582719478191-3fd3e3e4f8c8"
-            alt="lamp"
-            className="rounded-lg mb-2"
-          />
+          <img src="glowrify.png" alt="lamp" className="rounded-lg mb-2" />
           <p className="font-semibold text-sm">Brand Calling You!</p>
           <p className="text-xs">GLOWRIFY</p>
         </Link>
 
         <Link to="/coming-soon" className="bg-white p-3 rounded-xl shadow">
-          <img
-            src="https://images.unsplash.com/photo-1589302168068-964664d93dc0"
-            alt="chips"
-            className="rounded-lg mb-2"
-          />
+          <img src="Healthastic.png" alt="chips" className="rounded-lg mb-2" />
           <p className="font-semibold text-sm">Explore More</p>
           <p className="text-xs">HEALTASTIC!</p>
         </Link>
@@ -122,6 +114,5 @@ export default function App() {
         </div>
       </div>
     </Router>
-    
   );
 }
